@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="default.xml" />
+  <remote name="mione" fetch="https://github.com/xiaomi-classic-dev/" />
+  <project path="device/xiaomi/mione_plus" name="android_device_xiaomi_mione_plus" remote="mione" revision="817b015d42467a727b4f52e09c243072c7047185" />
+  <project path="device/xiaomi/msm8660-common" name="android_device_xiaomi_msm8660-common" remote="mione" revision="f9bbc9be04367a44d04919ce6fe6bbc642547c06" />
+  <project path="vendor/xiaomi/mione_plus" name="android_vendor_xiaomi_mione_plus" remote="mione" revision="70ccf546efe8cd730697d9300abcad517db94c9b" />
+  <project path="kernel/xiaomi/mione_plus" name="android_kernel_xiaomi_mione_plus" remote="mione" revision="7ec28a3196542a8152aedb3722fb3b5b5a7c4e9a" />
+  <project path="hardware/qcom/audio-caf/msm8660" name="android_hardware_qcom_audio" remote="mione" revision="0ca23f0d30e133b1ac5f79d7bcecbba0b82685a0" />
+  <project path="hardware/qcom/display-caf/msm8660" name="android_hardware_qcom_display" remote="mione" revision="55c8374935e962c6e8527d01be548b3d65db10c7" />
+  <project path="hardware/qcom/media-caf/msm8660" name="android_hardware_qcom_media" remote="mione" revision="38aa551b3120b9511d9fc969834a8b88b1cdbc4a" />
+  <remove-project name="LineageOS/android_bionic" />
+  <project path="bionic" name="android_bionic" remote="mione" revision="06c994d3953aa8fa014a41504b16dcd3bccb447b" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mione" revision="7d9fa39e6ab2200805f228b5f1c1c9ca838477ba" />
+  <remove-project name="platform/external/chromium_org/third_party/WebKit" />
+  <project path="external/chromium_org/third_party/WebKit" name="android_external_chromium_org_third_party_WebKit" remote="mione" revision="61bd06e42774c6d2bbc5ff6274c05b58e6b8f254" />
+</manifest>
